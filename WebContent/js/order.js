@@ -1,0 +1,13 @@
+$(function(){
+    $('#buttonUpdate').click(function(){
+        $('#command').val("UPDATECART");
+        //alert($('#command').val());
+        $('#updateform').submit();
+    });
+})
+$(function(){
+    $('#buttonBuy').click(function(){
+        $('#command').val("ORDERCART");
+        $('#updateform').submit();
+    })
+})
